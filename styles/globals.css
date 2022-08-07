@@ -28,7 +28,7 @@ a {
 }
 
 .navbar {
-  box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%);
 }
 
 .task-container .card {
@@ -45,4 +45,24 @@ a {
 
 .task-container .card-body:hover {
   background-color: rgb(55,53,47,0.08);
+}
+
+.add-wrapper.btn.btn-primary {
+  background-color: inherit !important;
+  border-color: inherit !important;
+  color: #6f7782 !important;
+  border: none;
+}
+
+.add-wrapper.btn.btn-primary:hover {
+  background-color: rgba(21,7,38,0.04) !important;
+  border-color: rgba(21,7,38,0.04) !important;
+  color: #6f7782 !important;
+  border: none;
+}
+
+.is-empty {
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(232,236,238, 0.5), rgba(232,236,238, 0));
+  flex: 1 1 100%;
 }
