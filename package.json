@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@apollo/client": "^3.6.9",
+    "@apollo/client": "^3.7.0",
     "@apollo/server": "^4.0.0-alpha.2",
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
